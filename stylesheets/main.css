@@ -1,6 +1,23 @@
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  h1{
+    font-size: 3.5em!important;
+  }
+  #top div {
+    display: block!important;
+    margin-top: 10px!important;
+  }
+  #signup {
+    height: 150!important;
+    padding-top: 10px;
+  }
+  #signup
+  #mc_embed_signup {
+    margin-left: auto!important;
+  }
+}
+
 body {
     font-family: 'Raleway', calibri;
-    background-image:url('../images/bg2.jpg');
     overflow-x:hidden;
     margin: 0;
     background-size:cover;
@@ -8,11 +25,26 @@ body {
     background-color:rgba(0, 0, 0,0);
 }
 
+#bg{
+  background-image:url('../images/bg2.jpg');
+  background-size:cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+}
+
 #top {
   background-color:rgba(0, 0, 0,0.3);
   text-align: center;
   padding-top: 5%;
-  padding-bottom:10%;
+  padding-bottom:15%;
   color: #fff;
 }
 
