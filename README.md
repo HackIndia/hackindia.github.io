@@ -1,3 +1,3 @@
-to see other bg options
+# HackIndia
 
-Inspect Element -> click on body -> change bg2.jpg to bg1.svg
+The official website for HackIndia 2015. Initial state: Collecting data
